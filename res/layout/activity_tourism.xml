@@ -1,0 +1,232 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:weightSum="6"
+    
+     >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2" 
+        android:background="@android:color/black"
+        android:weightSum="2" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/black"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="5dp"
+            android:weightSum="10"
+             >
+
+            <ImageButton
+                android:id="@+id/coxsbazarimageButton"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="9"
+                android:scaleType="fitXY"
+                android:background="@android:color/black"
+                android:src="@drawable/coxsbazar" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:textColor="@android:color/white"
+                android:text="কক্সবাজার " />
+
+        </LinearLayout>
+                <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/black"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="5dp"
+            android:weightSum="10"
+             >
+
+            <ImageButton
+                android:id="@+id/kagrachoriimageButton"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="9"
+                android:scaleType="fitXY"
+                android:background="@android:color/black"
+                android:src="@drawable/kagrachori" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:textColor="@android:color/white"
+                android:text="খাগড়াছড়ি" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+       <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2" 
+        android:background="@android:color/black"
+        android:weightSum="2" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/black"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="5dp"
+            android:weightSum="10"
+             >
+
+            <ImageButton
+                android:id="@+id/kaptaiimageButton"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="9"
+                android:scaleType="fitXY"
+                android:background="@android:color/black"
+                android:src="@drawable/kaptai" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:textColor="@android:color/white"
+                android:text="কাপ্তাই " />
+
+        </LinearLayout>
+                <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/black"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="5dp"
+            android:weightSum="10"
+             >
+
+            <ImageButton
+                android:id="@+id/nilgiriimageButton"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="9"
+                android:scaleType="fitXY"
+                android:background="@android:color/black"
+                android:src="@drawable/nilgiri" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:textColor="@android:color/white"
+                android:text="নীলগিরি" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2" 
+        android:background="@android:color/black"
+        android:weightSum="2" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/black"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="5dp"
+            android:weightSum="10"
+             >
+
+            <ImageButton
+                android:id="@+id/sundarbanimageButton"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="9"
+                android:scaleType="fitXY"
+                android:background="@android:color/black"
+                android:src="@drawable/sundarban" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:textColor="@android:color/white"
+                android:text="সুন্দরবন" />
+
+        </LinearLayout>
+                <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/black"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="5dp"
+            android:weightSum="10"
+             >
+
+            <ImageButton
+                android:id="@+id/sylhetimageButton"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="9"
+                android:scaleType="fitXY"
+                android:background="@android:color/black"
+                android:src="@drawable/sylhet" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:textColor="@android:color/white"
+                android:text="সিলেট চা বাগান" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

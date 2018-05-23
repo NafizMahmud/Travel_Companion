@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <string-array name = "BdNews">
+        <item name ="p">Prothom alo</item>
+        <item name ="k">Kaler Konto </item>
+        <item name ="c"> C</item>
+        <item name ="e"> E</item>
+        <item name ="n"> N</item>
+        <item name ="bd">B </item>
+        <item name ="pur">P </item>
+        <item name ="a"> A</item>
+        <item name ="ba">Ba </item>
+        <item name ="as">AS </item>
+        <item name ="d">DS </item>
+        <item name ="ja">J </item>
+        <item name ="in"> I</item>
+        <item name ="su">S </item>
+        <item name ="pur">Purb </item>
+        <item name ="jo"> Jo</item>
+        <item name ="ma">M </item>
+        <item name ="bn">BN </item>
+        <item name ="u">UNB </item>
+        <item name ="vo">V </item>
+        <item name ="lok">L </item>
+        <item name ="sk"> So</item>
+          <item name ="sok">Sokal </item>
+           <item name ="co">CO </item>
+         
+        
+        
+        </string-array>
+</resources>

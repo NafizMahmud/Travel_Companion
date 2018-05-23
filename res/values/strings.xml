@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Travel</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_all">All</string>
+    <string name="title_activity_religious">ReligiousActivity</string>
+    <string name="title_activity_note">NoteActivity</string>
+    <string name="title_activity_notesone">NotesoneActivity</string>
+    <string name="title_activity_enter_data">EnterDataActivity</string>
+    <string name="title_activity_audio">AudioActivity</string>
+    <string name="title_activity_entertainment">EntertainmentActivity</string>
+    <string name="title_activity_entertain">EntertainActivity</string>
+    <string name="title_activity_entertainmentt">EntertainmenttActivity</string>
+    <string name="title_activity_audio_second">AudioSecondActivity</string>
+    <string name="title_activity_feeling">FeelingActivity</string>
+    <string name="title_activity_logo">LogoActivity</string>
+    <string name="title_activity_logoo">LogooActivity</string>
+    <string name="title_activity_webb">WebbActivity</string>
+    <string name="title_activity_paper">PaperActivity</string>
+    <string name="title_activity_places">PlacesActivity</string>
+    <string name="title_activity_pointer">PointerActivity</string>
+
+</resources>

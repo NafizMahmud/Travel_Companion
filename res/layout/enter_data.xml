@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@android:color/black" >
+ 
+    <EditText android:id="@+id/et_person_name"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="5dip"
+              android:singleLine="true"
+              android:hint="Enter Task"
+              android:textColor="@android:color/white"
+              android:inputType="textNoSuggestions"
+              android:imeOptions="actionNext"/>
+ 
+    <EditText android:id="@+id/et_person_pin"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="5dip"
+              android:singleLine="true"
+              android:hint="Description"
+              android:textColor="@android:color/white"
+              android:inputType="textNoSuggestions"
+              android:imeOptions="actionDone"/>
+ 
+    <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Add"
+            android:textColor="@android:color/white"
+            android:onClick="onClickAdd"/>
+ 
+</LinearLayout>

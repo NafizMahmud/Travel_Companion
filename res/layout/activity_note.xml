@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/note_color"
+    
+    tools:context=".NoteActivity" >
+
+    
+
+    <Button
+        android:id="@+id/bn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bl"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Notes" />
+
+    <Button
+        android:id="@+id/bl"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/bn"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="26dp"
+        android:text="List" />
+   
+</RelativeLayout>

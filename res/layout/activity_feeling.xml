@@ -1,0 +1,134 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="vertical"
+      android:weightSum="16"
+    tools:context=".FeelingActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:layout_weight="4"
+        android:background="#898965"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/TextFeeWell"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:text="Feeling Well "
+            android:layout_weight="1"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Button
+            android:id="@+id/Buttonfeewell"
+            android:layout_width="wrap_content"
+               android:layout_weight="1.5"
+            android:layout_height="0dp"
+            android:text="WELL" />
+
+        <TextView
+            android:id="@+id/Textfeemediwell"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+               android:layout_weight="1.5"
+            android:text="  "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:layout_weight="4"
+        android:background="#457382"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/TextViewfeetired"
+            android:layout_width="wrap_content"
+                 android:layout_height="0dp"
+               android:layout_weight="1"
+            android:text="Feeling Tired "
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Button
+            android:id="@+id/Buttonfeetired"
+            android:layout_width="wrap_content"
+               android:layout_weight="1.5"
+                   android:layout_height="0dp"
+            android:text="TIRED" />
+
+        <TextView
+            android:id="@+id/TextViewfeemeditired"
+            android:layout_width="wrap_content"
+               android:layout_weight="1.5"
+                   android:layout_height="0dp"
+            android:text=" "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+        android:background="#873636"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/TextfeeHonest"
+            android:layout_width="wrap_content"
+               android:layout_weight="1"
+                     android:layout_height="0dp"
+            android:text="Feeling Honest "
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Button
+            android:id="@+id/ButtonfeeHonest"
+            android:layout_width="wrap_content"
+               android:layout_weight="1.5"
+                    android:layout_height="0dp"
+            android:text="HONEST" />
+
+        <TextView
+            android:id="@+id/TextViewfeemedihonest"
+            android:layout_width="wrap_content"
+               android:layout_weight="1.5"
+                     android:layout_height="0dp"
+            android:text=" "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="4"
+         android:background="#CCCCCC"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/TextViewfeeLove"
+            android:layout_width="wrap_content"
+                 android:layout_height="0dp"
+               android:layout_weight="1"
+            android:text="Feeling Love"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Button
+            android:id="@+id/buttonfeeLove"
+            android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+               android:layout_weight="1.5"
+            android:text="LOVE" />
+
+        <TextView
+            android:id="@+id/textViewmediLove"
+            android:layout_width="wrap_content"
+                   android:layout_height="0dp"
+               android:layout_weight="1.5"
+            android:text=" "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </LinearLayout>
+    
+</LinearLayout>
